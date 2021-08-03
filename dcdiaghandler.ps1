@@ -1,5 +1,5 @@
 param (
-    $lines = (Get-Content .\dcdiag.txt)
+    $lines
 )
 $regex = [regex]::new('[\s\.]+ (?<Good>(?<NameGood>[a-zA-Z0-9\._\-]+) hat den Test (?<TestGood>[a-zA-Z0-9\._\-]+) bestanden)|(?<Bad>Der Test (?<TestBad>[a-zA-Z0-9\._\-]+) für (?<NameBad>[a-zA-Z0-9\._\-]+) ist)')
 $idx = 0
