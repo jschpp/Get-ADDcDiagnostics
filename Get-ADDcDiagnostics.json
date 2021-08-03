@@ -1,0 +1,40 @@
+{
+  "$schema": "./Microsoft.PowerShell.Crescendo.Schema.json",
+  "Commands": [
+    {
+      "Verb": "Get",
+      "Noun": "ADDcDiagnostics",
+      "OriginalName": "C:\\Windows\\System32\\dcdiag.exe",
+      "Description": "This will get diagnostic information about AD",
+      "Parameters": [
+        {
+          "Name": "ComputerName",
+          "OriginalName": "/s:",
+          "ParameterType": "string",
+          "Description": "Run diagnostics for the given computer",
+          "NoGap": true
+        },
+        {
+          "Name": "DomainName",
+          "OriginalName": "/n:",
+          "ParameterType": "string",
+          "Description": "Domainname in netbios, dns or dn form",
+          "NoGap": true
+        }
+      ],
+      "Platform": [
+        "Windows"
+      ],
+      "DefaultParameterSetName": "Default",
+      "Examples": [],
+      "OriginalText": null,
+      "HelpLinks": null,
+      "OutputHandlers": [
+        {
+          "ParameterSetName": "Default",
+          "Handler": "__REPLACE_ME__"
+        }
+      ]
+    }
+  ]
+}
