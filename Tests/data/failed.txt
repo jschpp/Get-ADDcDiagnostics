@@ -1,0 +1,10 @@
+        Starting test: DFSREvent
+        Das Ereignisprotokoll DFS Replication auf dem Server
+ 
+        DC7.domain.local konnte nicht abgefragt werden. Fehler:
+ 
+        0x6ba "Der RPC-Server ist nicht verfügbar."
+ 
+        ......................... Der Test DFSREvent für DC7 ist
+ 
+        fehlgeschlagen.
